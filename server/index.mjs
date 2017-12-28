@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/hello', function (req, res) {
-    res.send("Hello med dig igen - "+process.env.NODE_ENV);
+    res.send("Hello med dig igen update aaah - "+process.env.NODE_ENV); 
 });
 
 app.get('/t', function (req, res) {

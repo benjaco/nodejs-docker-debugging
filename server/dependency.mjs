@@ -1,1 +1,1 @@
-export const test = "test module";
+export const test = "test module"; 
