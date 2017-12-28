@@ -1,7 +1,7 @@
 import express from 'express'
 import path from 'path'
 import bodyParser from 'body-parser'
-import * as saavirkdog from "./dependenci"
+import * as saavirkdog from "./dependency"
 
 
 const FILENAME = typeof __filename !== 'undefined' ? __filename : (/^ +at (?:file:\/!*(?=\/)|)(.*?):\d+:\d+$/m.exec(Error().stack) || '')[1];
