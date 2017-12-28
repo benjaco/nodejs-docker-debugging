@@ -13,4 +13,5 @@ COPY . ./
 ENV NODE_ENV "det er min egen fucking docker fil,  juuuhuuu"
 
 EXPOSE 80 9229
-ENTRYPOINT nodemon -L  --inspect=0.0.0.0 --experimental-modules server/index.mjs
+CMD node  --experimental-modules server/index.mjs
+# Development -> nodemon -L  --inspect=0.0.0.0 --experimental-modules server/index.mjs

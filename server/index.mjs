@@ -35,5 +35,5 @@ app.use('/', express.static(DIRNAME + '/../static'));
 
 
 app.listen(80, function () {
-    console.log("Listends to port 3000")
+    console.log("Listends to port 80")
 });
